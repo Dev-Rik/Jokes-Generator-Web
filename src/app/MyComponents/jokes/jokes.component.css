@@ -1,0 +1,28 @@
+#JokeButton{
+    text-align: center; 
+    background-color: #ffffff;
+    margin-left: 195px;
+    border: none; 
+    padding: 15px;  
+    border-radius: 50px; 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: rgb(55, 55, 255);
+    cursor: pointer;
+    width: 30%;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.container{
+    color: whitesmoke;
+}
+.text-center{
+    text-align: center;
+    position: relative;
+    padding-bottom: 2%;
+    font-size: large;
+}
+
+
