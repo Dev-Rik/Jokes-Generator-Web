@@ -65,6 +65,7 @@ It’s a great beginner-friendly project — fun, interactive, and easily extend
 
 ## 📁 Project Structure
 
+```
 src/
 ├── app/
 │   ├── joke/
@@ -78,5 +79,6 @@ src/
 │   └── app.component.html
 ├── assets/                          # Static resources
 └── main.ts                          # Bootstrap file
+```
 
 ---
