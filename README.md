@@ -1,27 +1,82 @@
-# JOKE
+# 😂 Jokes Generator Web
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+### 🎭 A Random Jokes Generator built with Angular
 
-## Development server
+**Jokes Generator Web** is a fun and lightweight web application that lets users instantly fetch random jokes with a single click — perfect for a quick laugh and mood boost!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Built with **Angular**, it uses a clean UI and simple API integration to deliver hilarious jokes one after another.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Live Demo
+> 🔗 https://dev-rik.github.io/Jokes-Generator-Web/
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📸 Preview
+| Home View | Joke Display |
+|:--------------:|:--------------:|
+| *(Click the button to get a joke)* | *(Enjoy random fun jokes)* |
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ✨ Features
 
-## Running end-to-end tests
+### 😄 **Instant Joke Fetching**
+- Get random jokes on button click
+- Fetches jokes from a joke API / joke service
+- Designed to brighten your day in one tap
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🧼 **Minimal & Clean UI**
+- Simple layout with refreshing UX
+- Focused on the joke experience — no clutter
 
-## Further help
+### ⚙️ **Developer Friendly**
+- Angular service to fetch jokes
+- Easily switch joke APIs by editing the service endpoint
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 📱 **Responsive**
+- Works across mobile, tablet, and desktop screens
+
+---
+
+## 🧠 Project Overview
+
+**Jokes Generator Web** was created to explore Angular fundamentals such as:
+
+- Components & services
+- HTTP Client API requests
+- Event handling & data binding
+
+It’s a great beginner-friendly project — fun, interactive, and easily extendable.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools / Frameworks |
+|:----------|:-------------------|
+| **Frontend** | Angular |
+| **HTTP** | Angular HttpClient |
+| **Language** | TypeScript, HTML, CSS |
+| **Deployment** | GitHub Pages |
+
+---
+
+## 📁 Project Structure
+
+src/
+├── app/
+│   ├── joke/
+│   │   ├── joke.component.ts        # UI logic for jokes
+│   │   ├── joke.component.html      # Template for displaying jokes
+│   │   └── joke.component.css       # Joke component styling
+│   ├── services/
+│   │   └── joke.service.ts          # API call to fetch jokes
+│   ├── app.component.ts             # Main app component
+│   ├── app.module.ts                # Root Angular module
+│   └── app.component.html
+├── assets/                          # Static resources
+└── main.ts                          # Bootstrap file
+
+---
