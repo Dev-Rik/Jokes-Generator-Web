@@ -14,9 +14,7 @@ Built with **Angular**, it uses a clean UI and simple API integration to deliver
 ---
 
 ## 📸 Preview
-| Home View | Joke Display |
-|:--------------:|:--------------:|
-| *(Click the button to get a joke)* | *(Enjoy random fun jokes)* |
+<img width="1470" height="801" alt="Screenshot 2025-12-17 at 9 30 10 PM" src="https://github.com/user-attachments/assets/b713f8cd-2879-40e2-89ec-157465d6b196" />
 
 ---
 
